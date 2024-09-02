@@ -28,7 +28,7 @@ export default function Checkout() {
     },
     validationSchema,
 
-    onSubmit: () => handleCheckout(cartId, "http://localhost:5173"),
+    onSubmit: () => handleCheckout(cartId, "https://fresh-cart-cqvd.vercel.app/"),
   });
 
   async function handleCheckout(cartId, url) {
